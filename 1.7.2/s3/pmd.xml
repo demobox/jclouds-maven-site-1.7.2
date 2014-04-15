@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-15T17:53:57.830">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/S3ApiMetadata.java">
+<violation beginline="17" endline="128" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/S3Fallbacks.java">
+<violation beginline="17" endline="52" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/blobstore/S3AsyncBlobStore.java">
+<violation beginline="245" endline="247" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.s3.blobstore" class="S3AsyncBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/blobstore/S3BlobStore.java">
+<violation beginline="236" endline="238" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.s3.blobstore" class="S3BlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/blobstore/functions/ObjectToBlobMetadata.java">
+<violation beginline="63" endline="65" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.s3.blobstore.functions" class="ObjectToBlobMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/blobstore/internal/BackoffOnNotFoundWhenGetBucketACL.java">
+<violation beginline="55" endline="63" begincolumn="19" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.s3.blobstore.internal" class="BackoffOnNotFoundWhenGetBucketACL" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'max'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/domain/AccessControlList.java">
+<violation beginline="234" endline="236" begincolumn="51" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.s3.domain" class="AccessControlList" method="fromCannedAccessPolicy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/fallbacks/FalseIfBucketAlreadyOwnedByYouOrOperationAbortedWhenBucketExists.java">
+<violation beginline="17" endline="76" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.fallbacks" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/filters/RequestAuthorizeSignature.java">
+<violation beginline="17" endline="264" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/options/CopyObjectOptions.java">
+<violation beginline="17" endline="327" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/s3/src/main/java/org/jclouds/s3/options/PutObjectOptions.java">
+<violation beginline="17" endline="110" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.s3.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
