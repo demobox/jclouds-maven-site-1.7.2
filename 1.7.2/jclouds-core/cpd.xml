@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="114" tokens="532">
+<file line="76" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeHttpMethod.java"/>
+<file line="112" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeSyncToAsyncHttpMethod.java"/>
+<codefragment>
+<![CDATA[
+      return invoke(in);
+   }
+
+   /**
+    * invokes the {@linkplain HttpCommand} associated with {@code invocation},
+    * {@link #getTransformer(String, HttpCommand) parses its response}, and
+    * applies a {@link #getFallback(String, Invocation, HttpCommand) fallback}
+    * if a {@code Throwable} is encountered.
+    */
+   public Object invoke(Invocation invocation) {
+      String commandName = config.getCommandName(invocation);
+      HttpCommand command = toCommand(commandName, invocation);
+      Function<HttpResponse, ?> transformer = getTransformer(commandName, command);
+      org.jclouds.Fallback<?> fallback = getFallback(commandName, invocation, command);
+
+      logger.debug(">> invoking %s", commandName);
+      try {
+         return transformer.apply(http.invoke(command));
+      } catch (Throwable t) {
+         try {
+            return fallback.createOrPropagate(t);
+         } catch (Exception e) {
+            throw propagate(e);
+         }
+      }
+   }
+
+   /**
+    * calls {@link #invoke(Invocation)}, timing out after the specified time
+    * limit. If the target method call finished before the limit is reached, the
+    * return value or exception is propagated to the caller exactly as-is. If,
+    * on the other hand, the time limit is reached, we attempt to abort the call
+    * to the target, and throw an {@link UncheckedTimeoutException} to the
+    * caller.
+    * 
+    * @param invocation
+    *           the Invocation to invoke via {@link #invoke(Invocation)}
+    * @param limitNanos
+    *           with timeoutUnit, the maximum length of time to wait in
+    *           nanoseconds
+    * @throws InterruptedException
+    *            if our thread is interrupted during execution
+    * @throws UncheckedTimeoutException
+    *            if the time limit is reached
+    * @see TimeLimiter#callWithTimeout(Callable, long, TimeUnit, boolean)
+    */
+   public Object invokeWithTimeout(final Invocation invocation, final long limitNanos) {
+      String commandName = config.getCommandName(invocation);
+      HttpCommand command = toCommand(commandName, invocation);
+      org.jclouds.Fallback<?> fallback = getFallback(commandName, invocation, command);
+
+      logger.debug(">> blocking on %s for %s", invocation, limitNanos);
+      try {
+         return timeLimiter
+               .callWithTimeout(new InvokeAndTransform(commandName, command), limitNanos, NANOSECONDS, true);
+      } catch (Throwable t) {
+         try {
+            return fallback.createOrPropagate(t);
+         } catch (Exception e) {
+            throw propagate(e);
+         }
+      }
+   }
+
+   private org.jclouds.Fallback<?> getFallback(String commandName, Invocation invocation, HttpCommand command) {
+      HttpRequest request = command.getCurrentRequest();
+      org.jclouds.Fallback<?> fallback = config.getFallback(invocation);
+      if (fallback instanceof InvocationContext)
+         InvocationContext.class.cast(fallback).setContext(request);
+      logger.trace("<< exceptions from %s are parsed by %s", commandName, fallback.getClass().getSimpleName());
+      return fallback;
+   }
+
+   @VisibleForTesting
+   final class InvokeAndTransform implements Callable<Object> {
+      private final String commandName;
+      private final HttpCommand command;
+      private final Function<HttpResponse, ?> transformer;
+
+      InvokeAndTransform(String commandName, HttpCommand command) {
+         this.commandName = commandName;
+         this.command = command;
+         this.transformer = getTransformer(commandName, command);
+      }
+
+      @Override
+      public Object call() throws Exception {
+         return transformer.apply(http.invoke(command));
+      }
+
+      @Override
+      public int hashCode() {
+         return Objects.hashCode(commandName, command, transformer);
+      }
+
+      @Override
+      public boolean equals(Object obj) {
+         if (this == obj)
+            return true;
+         if (obj == null || getClass() != obj.getClass())
+            return false;
+         InvokeAndTransform that = InvokeAndTransform.class.cast(obj);
+         return equal(this.commandName, that.commandName) && equal(this.command, that.command)
+               && equal(this.transformer, that.transformer);
+      }
+
+      @Override
+      public String toString() {
+         return toStringHelper(this).add("commandName", commandName).add("command", command)
+               .add("transformer", transformer).toString();
+      }
+   }
+
+   private HttpCommand toCommand(String commandName, Invocation invocation) {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="12" tokens="114">
+<file line="51" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/location/suppliers/all/RegionToProvider.java"/>
+<file line="49" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/location/suppliers/all/RegionToProviderOrJustProvider.java"/>
+<codefragment>
+<![CDATA[
+   public RegionToProvider(JustProvider justProvider, @Region Supplier<Set<String>> regionsSupplier,
+            @Iso3166 Supplier<Map<String, Supplier<Set<String>>>> isoCodesByIdSupplier) {
+      this.justProvider = checkNotNull(justProvider, "justProvider");
+      this.regionsSupplier = checkNotNull(regionsSupplier, "regionsSupplier");
+      this.isoCodesByIdSupplier = checkNotNull(isoCodesByIdSupplier, "isoCodesByIdSupplier");
+   }
+
+   @Override
+   public Set<? extends Location> get() {
+      Builder<Location> locations = ImmutableSet.builder();
+      Location provider = Iterables.getOnlyElement(justProvider.get());
+      Set<String> regions = regionsSupplier.get();
+]]>
+</codefragment>
+</duplication>
+<duplication lines="15" tokens="114">
+<file line="88" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/util/Throwables2.java"/>
+<file line="105" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/util/Throwables2.java"/>
+<codefragment>
+<![CDATA[
+   static <T extends Throwable> T getFirstThrowableOfType(ProvisionException e, Class<T> clazz) {
+      for (Message message : e.getErrorMessages()) {
+         if (message.getCause() != null) {
+            T cause = getFirstThrowableOfType(message.getCause(), clazz);
+            if (cause instanceof ProvisionException)
+               return getFirstThrowableOfType(ProvisionException.class.cast(cause), clazz);
+            else if (cause instanceof TransformParallelException)
+               return getFirstThrowableOfType(TransformParallelException.class.cast(cause), clazz);
+            else if (cause instanceof CreationException)
+               return getFirstThrowableOfType(CreationException.class.cast(cause), clazz);
+            return cause;
+         }
+      }
+      return null;
+   }
+]]>
+</codefragment>
+</duplication>
+<duplication lines="15" tokens="109">
+<file line="187" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeHttpMethod.java"/>
+<file line="234" path="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeSyncToAsyncHttpMethod.java"/>
+<codefragment>
+<![CDATA[
+   }
+
+   private HttpCommand toCommand(String commandName, Invocation invocation) {
+      logger.trace(">> converting %s", commandName);
+      HttpRequest request = annotationProcessor.apply(invocation);
+      logger.trace("<< converted %s to %s", commandName, request.getRequestLine());
+      return new HttpCommand(request);
+   }
+
+   private Function<HttpResponse, ?> getTransformer(String commandName, HttpCommand command) {
+      HttpRequest request = command.getCurrentRequest();
+      Function<HttpResponse, ?> transformer = transformerForRequest.apply(request);
+      logger.trace("<< response from %s is parsed by %s", commandName, transformer.getClass().getSimpleName());
+      return transformer;
+   }
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>

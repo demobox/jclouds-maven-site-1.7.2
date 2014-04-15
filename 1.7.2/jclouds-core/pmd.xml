@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-15T15:57:51.316">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/ContextBuilder.java">
+<violation beginline="17" endline="660" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="426" endline="428" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds" class="ContextBuilder" method="addRestContextBinding" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="433" endline="435" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds" class="ContextBuilder" method="addRestContextBinding" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/Fallbacks.java">
+<violation beginline="17" endline="205" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/annotations/Name.java">
+<violation beginline="17" endline="37" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/apis/internal/BaseApiMetadata.java">
+<violation beginline="17" endline="462" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.apis.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/concurrent/FutureIterables.java">
+<violation beginline="17" endline="201" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.concurrent" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/concurrent/config/ScheduledExecutorServiceModule.java">
+<violation beginline="17" endline="77" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.concurrent.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/crypto/ASN1Codec.java">
+<violation beginline="17" endline="252" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.crypto" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/crypto/Pems.java">
+<violation beginline="17" endline="411" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.crypto" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="175" endline="175" begincolumn="28" endcolumn="34" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.crypto" class="Pems$Pem" variable="content" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'content'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/encryption/internal/JCECrypto.java">
+<violation beginline="69" endline="72" begincolumn="13" endcolumn="11" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.encryption.internal" class="JCECrypto" method="hmac" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/fallbacks/HeaderToRetryAfterException.java">
+<violation beginline="17" endline="124" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.fallbacks" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="118" endline="120" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.fallbacks" class="HeaderToRetryAfterException" method="tryCreateRetryAfterException" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/HttpRequest.java">
+<violation beginline="17" endline="296" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/HttpResponseException.java">
+<violation beginline="91" endline="92" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http" class="HttpResponseException" method="requestPayloadIfStringOrFormIfNotReturnEmptyString" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/HttpUtils.java">
+<violation beginline="17" endline="315" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/Uris.java">
+<violation beginline="17" endline="429" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="413" endline="415" begincolumn="14" endcolumn="7" rule="UselessOverridingMethod" ruleset="Basic Rules" package="org.jclouds.http" class="Uris$DecodingMultimap" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/config/SSLModule.java">
+<violation beginline="117" endline="117" begincolumn="10" endcolumn="16" rule="UnnecessaryReturn" ruleset="Basic Rules" package="org.jclouds.http.config" class="SSLModule$TrustAllCerts" method="checkClientTrusted" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+<violation beginline="121" endline="121" begincolumn="10" endcolumn="16" rule="UnnecessaryReturn" ruleset="Basic Rules" package="org.jclouds.http.config" class="SSLModule$TrustAllCerts" method="checkServerTrusted" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/filters/BasicAuthentication.java">
+<violation beginline="17" endline="65" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/internal/BaseHttpCommandExecutorService.java">
+<violation beginline="17" endline="222" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="109" endline="110" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http.internal" class="BaseHttpCommandExecutorService$ConsumeOnCloseInputStream" method="close" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/internal/JavaUrlHttpCommandExecutorService.java">
+<violation beginline="17" endline="319" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="254" endline="256" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.http.internal" class="JavaUrlHttpCommandExecutorService" method="setRequestMethodBypassingJREMethodLimitation" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/options/GetOptions.java">
+<violation beginline="17" endline="305" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.http.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/http/utils/Queries.java">
+<violation beginline="41" endline="42" begincolumn="26" endcolumn="10" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.http.utils" class="Queries" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/internal/ContextImpl.java">
+<violation beginline="17" endline="192" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/io/ContentMetadata.java">
+<violation beginline="17" endline="108" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.io" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/io/ContentMetadataCodec.java">
+<violation beginline="17" endline="143" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.io" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/json/internal/NamingStrategies.java">
+<violation beginline="17" endline="251" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.json.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/lifecycle/config/LifeCycleModule.java">
+<violation beginline="17" endline="157" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.lifecycle.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/location/Provider.java">
+<violation beginline="17" endline="40" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.location" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/location/suppliers/implicit/OnlyLocationOrFirstRegionOptionallyMatchingRegionId.java">
+<violation beginline="17" endline="76" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.location.suppliers.implicit" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/location/suppliers/implicit/OnlyLocationOrFirstZone.java">
+<violation beginline="17" endline="66" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.location.suppliers.implicit" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/osgi/Bundles.java">
+<violation beginline="83" endline="84" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.osgi" class="Bundles" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="103" endline="104" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.osgi" class="Bundles" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="104" endline="105" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.osgi" class="Bundles" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="129" endline="130" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.osgi" class="Bundles" method="stringsForResourceInBundle" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="130" endline="131" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.osgi" class="Bundles" method="stringsForResourceInBundle" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/osgi/MetadataBundleListener.java">
+<violation beginline="17" endline="213" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.osgi" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/predicates/InetSocketAddressConnect.java">
+<violation beginline="81" endline="83" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.predicates" class="InetSocketAddressConnect" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/providers/internal/UpdateProviderMetadataFromProperties.java">
+<violation beginline="17" endline="97" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.providers.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/proxy/internal/GuiceProxyConfig.java">
+<violation beginline="17" endline="121" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.proxy.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/reflect/FunctionalReflection.java">
+<violation beginline="17" endline="145" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.reflect" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/annotations/Api.java">
+<violation beginline="17" endline="40" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/annotations/ApiVersion.java">
+<violation beginline="17" endline="41" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/annotations/BuildVersion.java">
+<violation beginline="17" endline="41" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/annotations/OnlyElement.java">
+<violation beginline="17" endline="41" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/annotations/SinceApiVersion.java">
+<violation beginline="17" endline="54" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.annotations" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/binders/BindAsHostPrefix.java">
+<violation beginline="17" endline="47" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/config/ReadAnnotationsAndProperties.java">
+<violation beginline="17" endline="116" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/config/SyncToAsyncHttpInvocationModule.java">
+<violation beginline="17" endline="145" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/DelegatesToInvocationFunction.java">
+<violation beginline="17" endline="288" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeAndCallGetOnFutures.java">
+<violation beginline="44" endline="44" begincolumn="19" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.rest.internal" class="InvokeAndCallGetOnFutures" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'logger'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/InvokeSyncToAsyncHttpMethod.java">
+<violation beginline="17" endline="273" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/rest/internal/RestAnnotationProcessor.java">
+<violation beginline="17" endline="838" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.rest.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="555" endline="556" begincolumn="45" endcolumn="16" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.rest.internal" class="RestAnnotationProcessor" method="getMapPayloadBinderOrNull" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="620" endline="624" begincolumn="70" endcolumn="13" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.rest.internal" class="RestAnnotationProcessor" method="decorateRequest" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/core/src/main/java/org/jclouds/util/Strings2.java">
+<violation beginline="93" endline="93" begincolumn="33" endcolumn="47" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.util" class="Strings2" variable="ADDRESS_PATTERN" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ADDRESS_PATTERN'.
+</violation>
+</file>
+</pmd>
