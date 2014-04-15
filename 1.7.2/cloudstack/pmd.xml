@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-15T16:59:22.669">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/CloudStackComputeService.java">
+<violation beginline="19" endline="184" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="160" endline="172" begincolumn="12" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.compute" class="CloudStackComputeService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused method parameters such as 'zoneId'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/extensions/CloudStackImageExtension.java">
+<violation beginline="17" endline="163" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/extensions/CloudStackSecurityGroupExtension.java">
+<violation beginline="17" endline="284" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/functions/VirtualMachineToNodeMetadata.java">
+<violation beginline="17" endline="182" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/predicates/AllNodesInGroupTerminated.java">
+<violation beginline="17" endline="56" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.predicates" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/AdvancedNetworkOptionsConverter.java">
+<violation beginline="17" endline="61" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/CloudStackComputeServiceAdapter.java">
+<violation beginline="17" endline="476" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="104" endline="104" begincolumn="43" endcolumn="57" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.compute.strategy" class="CloudStackComputeServiceAdapter" variable="credentialStore" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'credentialStore'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/filters/QuerySigner.java">
+<violation beginline="17" endline="143" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/ReuseOrAssociateNewPublicIPAddress.java">
+<violation beginline="17" endline="105" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/StaticNATVirtualMachineInNetwork.java">
+<violation beginline="75" endline="77" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.cloudstack.functions" class="StaticNATVirtualMachineInNetwork" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>
