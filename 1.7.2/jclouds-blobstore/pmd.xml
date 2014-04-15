@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-15T17:31:45.818">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/blobstore/src/main/java/org/jclouds/blobstore/LocalAsyncBlobStore.java">
+<violation beginline="17" endline="551" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="440" endline="441" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="LocalAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="444" endline="445" begincolumn="13" endcolumn="74" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore" class="LocalAsyncBlobStore" method="getBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/blobstore/src/main/java/org/jclouds/blobstore/functions/ParseSystemAndUserMetadataFromHeaders.java">
+<violation beginline="17" endline="126" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="94" endline="95" begincolumn="10" endcolumn="108" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.blobstore.functions" class="ParseSystemAndUserMetadataFromHeaders" method="parseLastModifiedOrThrowException" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/blobstore/src/main/java/org/jclouds/blobstore/strategy/internal/ListContainerAndRecurseThroughFolders.java">
+<violation beginline="17" endline="83" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.blobstore.strategy.internal" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
