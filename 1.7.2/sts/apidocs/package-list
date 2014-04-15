@@ -1,0 +1,14 @@
+org.jclouds.aws
+org.jclouds.aws.binders
+org.jclouds.aws.config
+org.jclouds.aws.domain
+org.jclouds.aws.filters
+org.jclouds.aws.handlers
+org.jclouds.aws.reference
+org.jclouds.aws.util
+org.jclouds.aws.xml
+org.jclouds.sts
+org.jclouds.sts.config
+org.jclouds.sts.domain
+org.jclouds.sts.options
+org.jclouds.sts.xml
