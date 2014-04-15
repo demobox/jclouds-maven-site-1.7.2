@@ -1,0 +1,14 @@
+org.jclouds.scriptbuilder
+org.jclouds.scriptbuilder.domain
+org.jclouds.scriptbuilder.domain.chef
+org.jclouds.scriptbuilder.functionloader
+org.jclouds.scriptbuilder.functionloader.filters
+org.jclouds.scriptbuilder.functionloader.osgi
+org.jclouds.scriptbuilder.functions
+org.jclouds.scriptbuilder.statements.chef
+org.jclouds.scriptbuilder.statements.git
+org.jclouds.scriptbuilder.statements.java
+org.jclouds.scriptbuilder.statements.login
+org.jclouds.scriptbuilder.statements.ruby
+org.jclouds.scriptbuilder.statements.ssh
+org.jclouds.scriptbuilder.util

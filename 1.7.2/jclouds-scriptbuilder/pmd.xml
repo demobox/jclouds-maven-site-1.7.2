@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-15T16:09:10.683">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/InitScript.java">
+<violation beginline="17" endline="335" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/domain/CreateRunScript.java">
+<violation beginline="17" endline="174" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/scriptbuilder/src/main/java/org/jclouds/scriptbuilder/statements/login/AdminAccess.java">
+<violation beginline="17" endline="447" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.scriptbuilder.statements.login" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
