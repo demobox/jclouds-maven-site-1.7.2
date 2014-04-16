@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="14" tokens="193">
+<file line="261" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="367" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(4.0, 2.0)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdc").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdd").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sde").bootDevice(false).durable(false).build()))
+            .is64Bit(true);
+   }
+
+   /**
+    * @see InstanceType#M2_XLARGE
+    */
+   public static EC2HardwareBuilder m2_xlarge() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="7" tokens="182">
+<file line="528" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="544" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+              .processors(ImmutableList.of(new Processor(16.0, 3.3125)))
+              .volumes(ImmutableList.<Volume> of(
+                    new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sdc").bootDevice(false).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sdd").bootDevice(false).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sde").bootDevice(false).durable(false).build()))
+]]>
+</codefragment>
+</duplication>
+<duplication lines="10" tokens="151">
+<file line="449" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="460" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .ram(22 * 1024)
+            .processors(ImmutableList.of(new Processor(4.0, 4.0), new Processor(4.0, 4.0)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdc").bootDevice(false).durable(false).build()))
+            .virtualizationType(VirtualizationType.HVM);
+   }
+
+   public static EC2HardwareBuilder cc1_4xlarge() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="5" tokens="118">
+<file line="225" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="247" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(1.0, 2.0)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdc").bootDevice(false).durable(false).build()));
+]]>
+</codefragment>
+</duplication>
+<duplication lines="6" tokens="117">
+<file line="301" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="450" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="461" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(8.0, 3.25)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdc").bootDevice(false).durable(false).build()))
+            .is64Bit(true);
+]]>
+</codefragment>
+</duplication>
+<duplication lines="5" tokens="116">
+<file line="225" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="247" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="261" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(1.0, 2.0)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdc").bootDevice(false).durable(false).build()));
+]]>
+</codefragment>
+</duplication>
+<duplication lines="5" tokens="114">
+<file line="225" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="247" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="367" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(1.0, 2.0)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(420.0f).device("/dev/sdc").bootDevice(false).durable(false).build()));
+]]>
+</codefragment>
+</duplication>
+<duplication lines="5" tokens="114">
+<file line="301" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="450" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="461" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="472" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+            .processors(ImmutableList.of(new Processor(8.0, 3.25)))
+            .volumes(ImmutableList.<Volume> of(
+                  new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                  new VolumeBuilder().type(LOCAL).size(840.0f).device("/dev/sdc").bootDevice(false).durable(false).build()))
+]]>
+</codefragment>
+</duplication>
+<duplication lines="5" tokens="114">
+<file line="514" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="528" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<file line="544" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/ec2/src/main/java/org/jclouds/ec2/compute/domain/EC2HardwareBuilder.java"/>
+<codefragment>
+<![CDATA[
+              .processors(ImmutableList.of(new Processor(8.0, 3.375)))
+              .volumes(ImmutableList.<Volume> of(
+                    new VolumeBuilder().type(LOCAL).size(10.0f).device("/dev/sda1").bootDevice(true).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sdb").bootDevice(false).durable(false).build(),
+                    new VolumeBuilder().type(LOCAL).size(800.0f).device("/dev/sdc").bootDevice(false).durable(false).build()))
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
