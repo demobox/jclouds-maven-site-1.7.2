@@ -1,0 +1,11 @@
+org.jclouds.openstack.trove.v1
+org.jclouds.openstack.trove.v1.binders
+org.jclouds.openstack.trove.v1.config
+org.jclouds.openstack.trove.v1.domain
+org.jclouds.openstack.trove.v1.features
+org.jclouds.openstack.trove.v1.filters
+org.jclouds.openstack.trove.v1.functions
+org.jclouds.openstack.trove.v1.handlers
+org.jclouds.openstack.trove.v1.internal
+org.jclouds.openstack.trove.v1.predicates
+org.jclouds.openstack.trove.v1.utils
