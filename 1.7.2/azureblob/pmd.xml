@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T11:51:55.394">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/blobstore/AzureAsyncBlobStore.java">
+<violation beginline="87" endline="87" begincolumn="52" endcolumn="74" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azureblob.blobstore" class="AzureAsyncBlobStore" variable="multipartUploadStrategy" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'multipartUploadStrategy'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/blobstore/functions/BlobPropertiesToBlobMetadata.java">
+<violation beginline="67" endline="69" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.azureblob.blobstore.functions" class="BlobPropertiesToBlobMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/blobstore/strategy/AzureBlobBlockUploadStrategy.java">
+<violation beginline="46" endline="46" begincolumn="19" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azureblob.blobstore.strategy" class="AzureBlobBlockUploadStrategy" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'logger'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/azureblob/src/main/java/org/jclouds/azureblob/xml/BlobBlocksResultsHandler.java">
+<violation beginline="49" endline="49" begincolumn="20" endcolumn="26" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azureblob.xml" class="BlobBlocksResultsHandler" variable="inBlock" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'inBlock'.
+</violation>
+<violation beginline="50" endline="50" begincolumn="20" endcolumn="25" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azureblob.xml" class="BlobBlocksResultsHandler" variable="inName" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'inName'.
+</violation>
+<violation beginline="51" endline="51" begincolumn="20" endcolumn="25" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.azureblob.xml" class="BlobBlocksResultsHandler" variable="inSize" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'inSize'.
+</violation>
+</file>
+</pmd>
