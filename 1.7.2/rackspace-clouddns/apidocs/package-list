@@ -1,0 +1,7 @@
+org.jclouds.rackspace.clouddns.v1
+org.jclouds.rackspace.clouddns.v1.binders
+org.jclouds.rackspace.clouddns.v1.config
+org.jclouds.rackspace.clouddns.v1.domain
+org.jclouds.rackspace.clouddns.v1.features
+org.jclouds.rackspace.clouddns.v1.functions
+org.jclouds.rackspace.clouddns.v1.predicates
