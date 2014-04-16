@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T10:31:01.906">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/cloudservers/src/main/java/org/jclouds/cloudservers/compute/strategy/CloudServersComputeServiceAdapter.java">
+<violation beginline="17" endline="142" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudservers.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
