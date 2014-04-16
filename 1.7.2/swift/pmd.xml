@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T09:25:01.653">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/SwiftFallbacks.java">
+<violation beginline="17" endline="49" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/blobstore/SwiftBlobSigner.java">
+<violation beginline="17" endline="180" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.swift.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/blobstore/strategy/internal/SequentialMultipartUploadStrategy.java">
+<violation beginline="41" endline="41" begincolumn="19" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.openstack.swift.blobstore.strategy.internal" class="SequentialMultipartUploadStrategy" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'logger'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/swift/src/main/java/org/jclouds/openstack/swift/domain/internal/DelegatingMutableObjectInfoWithMetadata.java">
+<violation beginline="57" endline="57" begincolumn="15" endcolumn="24" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.openstack.swift.domain.internal" class="DelegatingMutableObjectInfoWithMetadata" method="hashCode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+</pmd>
