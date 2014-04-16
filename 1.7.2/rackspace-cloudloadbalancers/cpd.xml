@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="39" tokens="128">
+<file line="89" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/AddNode.java"/>
+<file line="171" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/Node.java"/>
+<codefragment>
+<![CDATA[
+      @Override
+      public Builder address(String address) {
+         return Builder.class.cast(super.address(address));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder condition(Condition condition) {
+         return Builder.class.cast(super.condition(condition));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder type(Type type) {
+         return Builder.class.cast(super.type(type));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder port(int port) {
+         return Builder.class.cast(super.port(port));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder weight(Integer weight) {
+         return Builder.class.cast(super.weight(weight));
+      }
+
+      @Override
+      public AddNode build() {
+]]>
+</codefragment>
+</duplication>
+<duplication lines="41" tokens="109">
+<file line="178" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/CreateLoadBalancer.java"/>
+<file line="374" path="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudloadbalancers/src/main/java/org/jclouds/rackspace/cloudloadbalancers/v1/domain/LoadBalancer.java"/>
+<codefragment>
+<![CDATA[
+         this.nodes.add(checkNotNull(node, "node"));
+         return this;
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder algorithm(Algorithm algorithm) {
+         return Builder.class.cast(super.algorithm(algorithm));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder port(Integer port) {
+         return Builder.class.cast(super.port(port));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder protocol(String protocol) {
+         return Builder.class.cast(super.protocol(protocol));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder from(CreateLoadBalancer in) {
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
