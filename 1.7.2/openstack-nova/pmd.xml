@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T10:04:02.827">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/NovaApiMetadata.java">
+<violation beginline="17" endline="125" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/NovaComputeService.java">
+<violation beginline="17" endline="183" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/NovaComputeServiceAdapter.java">
+<violation beginline="17" endline="286" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/config/NovaComputeServiceContextModule.java">
+<violation beginline="17" endline="295" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/extensions/NovaImageExtension.java">
+<violation beginline="17" endline="140" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/extensions/NovaSecurityGroupExtension.java">
+<violation beginline="17" endline="373" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/functions/ImageToOperatingSystem.java">
+<violation beginline="17" endline="128" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/functions/ServerInZoneToNodeMetadata.java">
+<violation beginline="17" endline="199" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/loaders/CreateUniqueKeyPair.java">
+<violation beginline="70" endline="72" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.openstack.nova.v2_0.compute.loaders" class="CreateUniqueKeyPair" method="load" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/predicates/AllNodesInGroupTerminated.java">
+<violation beginline="17" endline="56" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.compute.predicates" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/compute/strategy/ApplyNovaTemplateOptionsCreateNodesWithGroupEncodedIntoNameThenAddToSet.java">
+<violation beginline="136" endline="144" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.openstack.nova.v2_0.compute.strategy" class="ApplyNovaTemplateOptionsCreateNodesWithGroupEncodedIntoNameThenAddToSet" method="execute" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/handlers/NovaErrorHandler.java">
+<violation beginline="17" endline="129" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.handlers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v2_0/options/CreateServerOptions.java">
+<violation beginline="17" endline="561" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.v2_0.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
