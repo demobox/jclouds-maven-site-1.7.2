@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T10:41:04.225">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudidentity/src/main/java/org/jclouds/rackspace/cloudidentity/v2_0/config/CloudIdentityAuthenticationApiModule.java">
+<violation beginline="40" endline="40" begincolumn="30" endcolumn="88" rule="UnusedPrivateMethod" ruleset="Unused Code Rules" package="org.jclouds.rackspace.cloudidentity.v2_0.config" class="CloudIdentityAuthenticationApiModule" method="provideAuthenticationApi" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'provideAuthenticationApi(CloudIdentityAuthenticationApi)'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/rackspace-cloudidentity/src/main/java/org/jclouds/rackspace/cloudidentity/v2_0/config/SyncToAsyncCloudIdentityAuthenticationApiModule.java">
+<violation beginline="47" endline="47" begincolumn="30" endcolumn="88" rule="UnusedPrivateMethod" ruleset="Unused Code Rules" package="org.jclouds.rackspace.cloudidentity.v2_0.config" class="SyncToAsyncCloudIdentityAuthenticationApiModule" method="provideAuthenticationApi" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'provideAuthenticationApi(CloudIdentityAuthenticationApi)'.
+</violation>
+<violation beginline="52" endline="52" begincolumn="35" endcolumn="103" rule="UnusedPrivateMethod" ruleset="Unused Code Rules" package="org.jclouds.rackspace.cloudidentity.v2_0.config" class="SyncToAsyncCloudIdentityAuthenticationApiModule" method="provideAuthenticationAsyncApi" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'provideAuthenticationAsyncApi(CloudIdentityAuthenticationAsyncApi)'.
+</violation>
+</file>
+</pmd>
