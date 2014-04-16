@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T12:31:21.012">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-sqs/src/main/java/org/jclouds/aws/sqs/AWSSQSProviderMetadata.java">
+<violation beginline="17" endline="105" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.sqs" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
