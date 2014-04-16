@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T08:41:26.852">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/VCloudApiMetadata.java">
+<violation beginline="17" endline="103" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCPUCountToXmlPayload.java">
+<violation beginline="48" endline="52" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.binders" class="BindCPUCountToXmlPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'stringBinder'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindCloneVAppTemplateParamsToXmlPayload.java">
+<violation beginline="40" endline="43" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.binders" class="BindCloneVAppTemplateParamsToXmlPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'ns'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindGuestCustomizationSectionToXmlPayload.java">
+<violation beginline="53" endline="57" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.binders" class="BindGuestCustomizationSectionToXmlPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'stringBinder'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindInstantiateVAppTemplateParamsToXmlPayload.java">
+<violation beginline="17" endline="221" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.binders" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindMemoryToXmlPayload.java">
+<violation beginline="48" endline="52" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.binders" class="BindMemoryToXmlPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'stringBinder'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/binders/BindNetworkConnectionSectionToXmlPayload.java">
+<violation beginline="54" endline="58" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.vcloud.binders" class="BindNetworkConnectionSectionToXmlPayload" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'stringBinder'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/functions/HardwareForVAppTemplate.java">
+<violation beginline="71" endline="73" begincolumn="14" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.functions" class="HardwareForVAppTemplate" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/functions/ImageForVAppTemplate.java">
+<violation beginline="73" endline="75" begincolumn="14" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.functions" class="ImageForVAppTemplate" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/functions/VAppToNodeMetadata.java">
+<violation beginline="17" endline="112" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="78" endline="78" begincolumn="14" endcolumn="22" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.jclouds.vcloud.compute.functions" class="VAppToNodeMetadata" method="apply" variable="groupName" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'groupName'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/strategy/InstantiateVAppTemplateWithGroupEncodedIntoNameThenCustomizeDeployAndPowerOn.java">
+<violation beginline="17" endline="302" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="269" endline="271" begincolumn="78" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.strategy" class="InstantiateVAppTemplateWithGroupEncodedIntoNameThenCustomizeDeployAndPowerOn" method="ensureVmHasAllocationModeOrPooled" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/strategy/NetworkConfigurationForNetworkAndOptions.java">
+<violation beginline="72" endline="74" begincolumn="39" endcolumn="7" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.strategy" class="NetworkConfigurationForNetworkAndOptions" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/compute/strategy/VCloudComputeServiceAdapter.java">
+<violation beginline="234" endline="235" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.vcloud.compute.strategy" class="VCloudComputeServiceAdapter" method="cancelAnyRunningTasks" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/config/VCloudHttpApiModule.java">
+<violation beginline="17" endline="538" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/features/VmApi.java">
+<violation beginline="17" endline="295" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.vcloud.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/functions/VAppTemplatesForCatalogItems.java">
+<violation beginline="45" endline="45" begincolumn="19" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.vcloud.functions" class="VAppTemplatesForCatalogItems" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'logger'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/handlers/ParseVCloudErrorFromHttpResponse.java">
+<violation beginline="77" endline="78" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.vcloud.handlers" class="ParseVCloudErrorFromHttpResponse" method="handleError" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/xml/OrgListHandler.java">
+<violation beginline="48" endline="50" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.xml" class="OrgListHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/vcloud/src/main/java/org/jclouds/vcloud/xml/OrgNetworkHandler.java">
+<violation beginline="159" endline="161" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.vcloud.xml" class="OrgNetworkHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
