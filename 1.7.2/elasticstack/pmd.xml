@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T08:57:05.798">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/apis/elasticstack/src/main/java/org/jclouds/elasticstack/compute/ElasticStackComputeServiceAdapter.java">
+<violation beginline="17" endline="249" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.elasticstack.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
