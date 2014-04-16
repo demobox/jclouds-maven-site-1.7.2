@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T12:10:36.898">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3ProviderMetadata.java">
+<violation beginline="17" endline="106" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/AWSS3AsyncBlobStore.java">
+<violation beginline="120" endline="122" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.s3.blobstore" class="AWSS3AsyncBlobStore" method="putBlobWithReducedRedundancy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/AWSS3BlobStore.java">
+<violation beginline="112" endline="114" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.s3.blobstore" class="AWSS3BlobStore" method="putBlobWithReducedRedundancy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/strategy/internal/SequentialMultipartUploadStrategy.java">
+<violation beginline="57" endline="57" begincolumn="19" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.aws.s3.blobstore.strategy.internal" class="SequentialMultipartUploadStrategy" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'logger'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-s3/src/main/java/org/jclouds/aws/s3/filters/AWSRequestAuthorizeSignature.java">
+<violation beginline="17" endline="75" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3.filters" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
