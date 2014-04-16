@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-16T12:19:41.952">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/AWSEC2ProviderMetadata.java">
+<violation beginline="17" endline="103" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/AWSEC2ComputeService.java">
+<violation beginline="17" endline="160" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/AWSEC2TemplateOptions.java">
+<violation beginline="17" endline="793" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/config/AWSEC2ComputeServiceDependenciesModule.java">
+<violation beginline="17" endline="179" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/extensions/AWSEC2SecurityGroupExtension.java">
+<violation beginline="17" endline="220" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.extensions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/functions/PresentSpotRequestsAndInstances.java">
+<violation beginline="17" endline="95" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/strategy/AWSEC2CreateNodesInGroupThenAddToSet.java">
+<violation beginline="75" endline="90" begincolumn="14" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.aws.ec2.compute.strategy" class="AWSEC2CreateNodesInGroupThenAddToSet" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'generateInstanceNames'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/strategy/AWSEC2DestroyNodeStrategy.java">
+<violation beginline="66" endline="67" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.ec2.compute.strategy" class="AWSEC2DestroyNodeStrategy" method="destroyInstanceInRegion" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/strategy/AWSEC2ListNodesStrategy.java">
+<violation beginline="17" endline="107" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/suppliers/AWSEC2HardwareSupplier.java">
+<violation beginline="17" endline="111" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/suppliers/AWSEC2ImageSupplier.java">
+<violation beginline="17" endline="162" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.ec2.compute.suppliers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="30" tokens="186">
+<file line="131" path="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/extensions/AWSEC2SecurityGroupExtension.java"/>
+<file line="176" path="/scratch/jenkins/workspace/jclouds-maven-site/providers/aws-ec2/src/main/java/org/jclouds/aws/ec2/compute/extensions/AWSEC2SecurityGroupExtension.java"/>
+<codefragment>
+<![CDATA[
+   public SecurityGroup addIpPermission(IpProtocol protocol, int startPort, int endPort,
+                                        Multimap<String, String> tenantIdGroupNamePairs,
+                                        Iterable<String> ipRanges,
+                                        Iterable<String> groupIds, SecurityGroup group) {
+      String region = AWSUtils.getRegionFromLocationOrNull(group.getLocation());
+      String id = group.getProviderId();
+
+      IpPermission.Builder builder = IpPermission.builder();
+
+      builder.ipProtocol(protocol);
+      builder.fromPort(startPort);
+      builder.toPort(endPort);
+      
+      if (Iterables.size(ipRanges) > 0) {
+         for (String cidr : ipRanges) {
+            builder.cidrBlock(cidr);
+         }
+      }
+
+      if (tenantIdGroupNamePairs.size() > 0) {
+         for (String userId : tenantIdGroupNamePairs.keySet()) {
+            for (String groupString : tenantIdGroupNamePairs.get(userId)) {
+               String[] parts = AWSUtils.parseHandle(groupString);
+               String groupId = parts[1];
+               builder.tenantIdGroupNamePair(userId, groupId);
+            }
+         }
+      }
+
+      client.getSecurityGroupApi().get().authorizeSecurityGroupIngressInRegion(region, id, builder.build());
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
