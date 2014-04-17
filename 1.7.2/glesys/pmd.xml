@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-17T00:05:27.647">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/glesys/src/main/java/org/jclouds/glesys/compute/GleSYSComputeServiceAdapter.java">
+<violation beginline="17" endline="269" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="87" endline="87" begincolumn="43" endcolumn="54" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.glesys.compute" class="GleSYSComputeServiceAdapter" variable="userExecutor" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'userExecutor'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/glesys/src/main/java/org/jclouds/glesys/compute/functions/ServerDetailsToNodeMetadata.java">
+<violation beginline="17" endline="153" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/glesys/src/main/java/org/jclouds/glesys/options/CreateServerOptions.java">
+<violation beginline="17" endline="132" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
