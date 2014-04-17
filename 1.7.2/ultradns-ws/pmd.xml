@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2014-04-17T00:33:13.857">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/ultradns-ws/src/main/java/org/jclouds/ultradns/ws/domain/DirectionalPoolRecord.java">
+<violation beginline="17" endline="172" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ultradns.ws.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site/providers/ultradns-ws/src/main/java/org/jclouds/ultradns/ws/domain/ResourceRecord.java">
+<violation beginline="17" endline="173" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.ultradns.ws.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
