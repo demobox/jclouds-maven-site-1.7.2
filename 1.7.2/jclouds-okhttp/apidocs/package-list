@@ -1,0 +1,2 @@
+org.jclouds.http.okhttp
+org.jclouds.http.okhttp.config
